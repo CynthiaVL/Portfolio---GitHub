@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <title>Bienvenue sur mon site | Portfolio Studi</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="linkHeader" class="linkHeader">
+                <a type="button" href="/"><img src="assets/icons/home.svg" alt="Home" class="icon icon-home"></a>
+                <div class="input-group">
+                    <a type="button" href="/" class="input-group-text">
+                        <img src="assets/icons/help.svg" alt="Help" class="icon icon-help">
+                    </a>
+                    <input type="text" class="form-control" placeholder="Poser une question" aria-label="AskQuestion" aria-describedby="askQuestion">
+                </div>           
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <div class="container">
+                <p>Portfolio</p>
+                <h1>Salut, je suis Cynthia Vanlaer</h1>
+                <p class="js-home-description"></p>
+                <div class="btnSectionDescription">
+                    <a type="button" href="/tous-mes-projets.html" class="btn btnViewCourse"><img src="assets/icons/arrow.svg" class="btnIcon">Voir les projets</a>
+                    <a type="button" href="" target="_blank" class="btn js-home-github-url btnGoGithub m-2"><img src="assets/icons/github.svg" class="btnIcon">Accéder au GitHub</a>
+                </div>
+            </div>
+            <div>
+                <img style='width:50px;' class="js-home-avatar" src="" aria-disabled="true"/>
+            </div>
+        </section>
+
+        <section>
+            <h2>Les derniers projets réalisés</h2>
+            <a href="tous-mes-projets.html">Voir tous les projets</a>
+
+            <ul>
+                <li>
+                    <h3 class="js-home-project-title">[dynamique]</h3>
+                    <p class="js-home-project-description">[description]</p>
+                    <div class="js-home-project-tags-container">
+                        <span class="js-home-project-tags">[tag]</span>
+                    </div>
+                    <a class="js-home-project-link" href="">
+                        <img style="width: 20px;" src="assets/icons/arrow_circle.svg"/>
+                    </a>
+                </li>
+                <li>
+                    <h3 class="js-home-project-title">[dynamique]</h3>
+                    <p class="js-home-project-description">[description]</p>
+                    <div class="js-home-project-tags-container">
+                        <span class="js-home-project-tags">[tag]</span>
+                    </div>
+                    <a class="js-home-project-link" href="">
+                        <img style="width: 20px;" src="assets/icons/arrow_circle.svg"/>
+                    </a>
+                </li>
+                <li>
+                    <h3 class="js-home-project-title">[dynamique]</h3>
+                    <p class="js-home-project-description">[description]</p>
+                    <div class="js-home-project-tags-container">
+                        <span class="js-home-project-tags">[tag]</span>
+                    </div>
+                    <a class="js-home-project-link" href="">
+                        <img style="width: 20px;" src="assets/icons/arrow_circle.svg"/>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    
+    <script type="module" src="./assets/app.js"></script>
+</body>
+</html>
